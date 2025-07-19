@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./page/HomePage.jsx";
 import { PedidoPage } from "./page/PedidoPage.jsx";
-import { PrivacyPolicy } from "./page/PrivacyPolicy.jsx";
+import { PrivacyPolicy } from "./page/PrivacyPolicyPage.jsx";
 
 function App() {
   return (
