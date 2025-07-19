@@ -24,7 +24,7 @@ export function HeroSection() {
         <PrimaryButton
           text="Fazer pedido"
           className="bg-pink-600 text-white text-base px-5 py-3 rounded-xl shadow-md hover:bg-pink-700"
-          onClick={() => navigate("/pedido")}
+          onClick={() => navigate("/politica-de-privacidade")}
         />
         <button className="btn btn-dash btn-secondary text-base text px-5 py-3 rounded-xl shadow-md hover:bg-pink-700">
           Ver cardápio
