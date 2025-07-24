@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IntroSection } from "../component/LeadFormSections/IntroSection.jsx";
 import { FormSection } from "../component/LeadFormSections/FormSection.jsx";
 import { FinishSection } from "../component/LeadFormSections/FinishSection.jsx";
+import bgInox from "../assets/bgInox.jpg";
 
 export function LeadFormPage() {
   const [intro, setIntro] = useState(true);
@@ -27,8 +28,7 @@ export function LeadFormPage() {
     <div
       className="min-h-screen flex items-center justify-center p-4"
       style={{
-        backgroundImage:
-          "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+        backgroundImage: `url(${bgInox})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

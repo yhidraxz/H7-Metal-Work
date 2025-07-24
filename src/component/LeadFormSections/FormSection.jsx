@@ -3,7 +3,9 @@ import { PrimaryButton } from "../primaryButton.jsx";
 export function FormSection({ formData, onChange, onSubmit }) {
   return (
     <>
-      <h1 className="text-xl font-semibold mb-2">Preencha seus dados</h1>
+      <h1 className="text-xl font-semibold mb-2 text-black">
+        Preencha seus dados
+      </h1>
       <form onSubmit={onSubmit} className="space-y-4">
         <input
           type="text"
