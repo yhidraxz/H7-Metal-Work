@@ -3,12 +3,14 @@
 // import { Festa } from "../component/Festa.jsx";
 // import { Delivery } from "../component/Delivery.jsx";
 // import { Footer } from "../component/Footer.jsx";
-import { PrivacyPolicy } from "./PrivacyPolicyPage.jsx";
+// import { PrivacyPolicy } from "./PrivacyPolicyPage.jsx";
+import { LeadFormPage } from "./LeadFormPage";
 
 export function Home() {
   return (
     <div className="text-base-light-100">
-      <PrivacyPolicy />
+      <LeadFormPage />
+      {/* <PrivacyPolicy /> */}
       {/* <NavBar />
       <HeroSection />
       <Sabores />
