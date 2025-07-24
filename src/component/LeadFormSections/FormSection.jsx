@@ -3,9 +3,13 @@ import { PrimaryButton } from "../primaryButton.jsx";
 export function FormSection({ formData, onChange, onSubmit }) {
   return (
     <>
-      <h1 className="text-xl font-semibold mb-2 text-black">
-        Preencha seus dados
+      <h1 className="text-xl text-start font-semibold mb-2 text-black">
+        Informações de contato
       </h1>
+      <p className="text-sm text-gray-600 mb-4 text-start">
+        Preencha as informações abaixo para que possamos entrar em contato e te
+        dar um orçamento
+      </p>
       <form onSubmit={onSubmit} className="space-y-4">
         <input
           type="text"
@@ -34,7 +38,18 @@ export function FormSection({ formData, onChange, onSubmit }) {
           onChange={onChange}
           required
         />
-        <PrimaryButton text="Enviar formulário" />
+        <select
+          name="localInstalacao"
+          className="select select-bordered w-full"
+          value={formData.localInstalacao}
+          onChange={onChange}
+          required
+        >
+          <option value="">Tipo de estabelecimento</option>
+          <option value="residencia">Residência</option>
+          <option value="comercio">Comércio</option>
+        </select>
+        <PrimaryButton text="Confirmar" />
       </form>
     </>
   );

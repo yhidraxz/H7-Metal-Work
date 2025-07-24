@@ -11,6 +11,7 @@ export function LeadFormPage() {
     nome: "",
     email: "",
     telefone: "",
+    localInstalacao: "",
   });
 
   const startForm = () => setIntro(false);

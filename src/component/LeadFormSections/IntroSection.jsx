@@ -3,11 +3,13 @@ import { PrimaryButton } from "../primaryButton.jsx";
 export function IntroSection({ onStart }) {
   return (
     <>
-      <h1 className="text-xl font-semibold text-black">Seja bem-vindo!</h1>
+      <h1 className="text-xl font-semibold text-black">
+        Inscreva-se e receba um orçamento no mesmo dia!
+      </h1>
       <p className="text-sm text-gray-600 mb-4">
-        Clique no botão abaixo para começar.
+        Nos dê suas informações para entrarmos em contato em até 24 horas
       </p>
-      <PrimaryButton text="Tá bom, vou preencher" onClick={onStart} />
+      <PrimaryButton text="Continuar" onClick={onStart} />
     </>
   );
 }
