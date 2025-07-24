@@ -1,11 +1,11 @@
-import logoFull from "../assets/logoFull.png";
+// import logoFull from "../assets/logoFull.png";
 
 export function Footer() {
   return (
     <footer className="footer sm:footer-horizontal bg-base-100 text-neutral-content px-10">
-      <aside>
+      {/* <aside>
         <img src={logoFull} alt="Logo" className="w-28 h-24 sm:w-48 sm:h-48" />
-      </aside>
+      </aside> */}
       <nav>
         {/* <h6 className="footer-title text-black">Social</h6> */}
         <div className="grid grid-flow-col gap-4 text-base-light-100">
