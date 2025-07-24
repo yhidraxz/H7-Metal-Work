@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IntroSection } from "../component/LeadFormSections/IntroSection.jsx";
 import { FormSection } from "../component/LeadFormSections/FormSection.jsx";
 import { FinishSection } from "../component/LeadFormSections/FinishSection.jsx";
-import bgInox from "../assets/bgInox.jpg";
+import bgInox from "../assets/bgInox.png";
 
 export function LeadFormPage() {
   const [intro, setIntro] = useState(true);
