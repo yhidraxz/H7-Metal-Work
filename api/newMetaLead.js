@@ -1,7 +1,7 @@
 export async function sendNewLead(formData) {
   try {
     const response = await fetch(
-      "https://formsubmit.co/ajax/coavo5778@GMAIL.COM",
+      "https://formsubmit.co/ajax/coavo5778@gmail.com",
       {
         method: "POST",
         body: JSON.stringify({
