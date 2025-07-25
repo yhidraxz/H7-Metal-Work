@@ -3,6 +3,7 @@ import { IntroSection } from "../component/LeadFormSections/IntroSection.jsx";
 import { FormSection } from "../component/LeadFormSections/FormSection.jsx";
 import { FinishSection } from "../component/LeadFormSections/FinishSection.jsx";
 import bgInox from "../assets/bgInox.png";
+import { sendNewLead } from "../api/sendnewLead.js";
 
 export function LeadFormPage() {
   const [intro, setIntro] = useState(true);
@@ -19,6 +20,7 @@ export function LeadFormPage() {
     e.preventDefault();
     setFinish(true);
     console.log("Formulário enviado:", formData);
+    sendNewLead(formData);
   };
 
   const handleChange = (e) => {
