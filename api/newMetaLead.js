@@ -12,6 +12,7 @@ export async function sendNewLead(formData) {
         }),
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
       }
     );
