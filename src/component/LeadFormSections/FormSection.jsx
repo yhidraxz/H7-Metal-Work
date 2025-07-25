@@ -14,7 +14,7 @@ export function FormSection({ formData, onChange, onSubmit }) {
         <input
           type="text"
           placeholder="Seu nome"
-          className="input input-bordered w-full"
+          className="input input-bordered w-full text-white"
           name="nome"
           value={formData.nome}
           onChange={onChange}
@@ -23,7 +23,7 @@ export function FormSection({ formData, onChange, onSubmit }) {
         <input
           type="email"
           placeholder="Seu email"
-          className="input input-bordered w-full"
+          className="input input-bordered w-full text-white"
           name="email"
           value={formData.email}
           onChange={onChange}
@@ -31,8 +31,8 @@ export function FormSection({ formData, onChange, onSubmit }) {
         />
         <input
           type="tel"
-          placeholder="Seu telefone"
-          className="input input-bordered w-full"
+          placeholder="Seu telefone (com DDD)"
+          className="input input-bordered w-full text-white"
           name="telefone"
           value={formData.telefone}
           onChange={onChange}
@@ -40,7 +40,7 @@ export function FormSection({ formData, onChange, onSubmit }) {
         />
         <select
           name="localInstalacao"
-          className="select select-bordered w-full"
+          className="select select-bordered w-full text-white"
           value={formData.localInstalacao}
           onChange={onChange}
           required
