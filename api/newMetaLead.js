@@ -1,7 +1,7 @@
 export async function sendNewLead(formData) {
   try {
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbxGej6gwDcrFMvpO5a5mDrb5XdvO3snjCSxeRL5A1-ymnXFPXidhzTvAHX8moaz_h7-Dg/exec",
+      "https://formsubmit.co/ajax/coavo5778@GMAIL.COM",
       {
         method: "POST",
         body: JSON.stringify({
